@@ -9,6 +9,6 @@ resource "aws_instance" "dev_instance" {
   subnet_id     = "subnet-074ee1f2fb2076568"
 
   tags = {
-    Name = "Dev_Instance"
+    Name = "Dev_Instance1"
   }
 }
