@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "dev_instance" {
   count = 1
   ami           = "ami-0ecb62995f68bb549"
-  instance_type = "t2.micro"
+  instance_type = "m5.large"
  
 
   tags = {
